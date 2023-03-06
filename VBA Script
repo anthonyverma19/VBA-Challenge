@@ -60,9 +60,9 @@ CurrentWs.Range("K1").Value = "Percent Change"
 CurrentWs.Range("L1").Value = "Total Stock Volume"
 
 'create headers for bonus values
-CurrentWs.Range("02").Value = "Greatest % Increase"
-CurrentWs.Range("03").Value = "Greatest % Decrease"
-CurrentWs.Range("04").Value = "Highest Volume"
+CurrentWs.Range("O2").Value = "Greatest % Increase"
+CurrentWs.Range("O3").Value = "Greatest % Decrease"
+CurrentWs.Range("O4").Value = "Highest Volume"
 CurrentWs.Range("P1").Value = "Ticker"
 CurrentWs.Range("Q1").Value = "Value"
 
