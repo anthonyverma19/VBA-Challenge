@@ -61,7 +61,7 @@ CurrentWs.Range("L1").Value = "Total Stock Volume"
 
 'create headers for bonus values
 CurrentWs.Range("O2").Value = "Greatest % Increase"
-CurrentWs.Range("o3").Value = "Greatest % Decrease"
+CurrentWs.Range("O3").Value = "Greatest % Decrease"
 CurrentWs.Range("O4").Value = "Highest Volume"
 CurrentWs.Range("P1").Value = "Ticker"
 CurrentWs.Range("Q1").Value = "Value"
@@ -126,7 +126,7 @@ Greatest_Volume = WorksheetFunction.Max(CurrentWs.Range("L:L"))
 'put bonus values in a summary table
 
 CurrentWs.Range("Q2").Value = (CStr(Bonus_Increase) & "%")
-CurrentWs.Range("Q3").Value = (CStr(Bonus_Increase) & "%")
+CurrentWs.Range("Q3").Value = (CStr(Bonus_Decrease) & "%")
 CurrentWs.Range("P2").Value = Bonus_Increase_Ticker
 CurrentWs.Range("P3").Value = Bonus_Decrease_Ticker
 CurrentWs.Range("Q4").Value = Greatest_Volume
